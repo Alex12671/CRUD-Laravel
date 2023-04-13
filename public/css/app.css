@@ -1,0 +1,269 @@
+@font-face {
+    font-family: Poppins;
+    src: url('/Poppins/Poppins-Regular.tff');
+}
+
+* {
+    font-family:'Lato', sans-serif;
+}
+
+body { 
+    height:100vh;
+    background-color: beige !important;
+    background-color: gainsboro !important;
+    background-size: cover;
+    background-size: no-repeat;
+
+}
+
+header {
+    height:20%;
+}
+
+.webLogo {
+    max-width:300px;
+}
+
+.adminFormDiv {
+    min-width: 550px;
+    width:30%;
+    height:50%;
+    background-color: white !important;
+}
+
+.createRunnerformDiv {
+    min-width: 900px;
+    width:30%;
+    background-color: white !important;
+}
+
+.createCourseformDiv {
+    min-width: 900px;
+    width:30%;
+    height:75%;
+    background-color: white !important;
+}
+
+
+.formTitle {
+    margin:5%;
+    font-size:28px;
+    font-family:'Poppins', sans-serif;
+}
+
+form {
+    width:65%;
+}
+
+.logAdminInput input {
+    border:none;
+    background-color: gainsboro;
+    border-radius:8px;
+    width:100%;
+    padding:4% 0 4% 2%;
+}
+
+.runnerInput input {
+    border:none;
+    background-color: gainsboro;
+    border-radius:8px;
+    width:100%;
+    padding:3% 0 3% 2%;
+}
+
+.runnerInput select {
+    border:none;
+    background-color: gainsboro;
+    border-radius:8px;
+    width:100%;
+    padding:3% 0 3% 2%;
+}
+
+textArea {
+    border:none;
+    background-color: gainsboro;
+    border-radius:8px;
+    width:100%;
+}
+
+.submitLogAdminButton {
+    background-image: linear-gradient(to top right, rgb(67, 150, 92), rgb(62, 201, 85));
+    color:white;
+    border:none;
+    width:75%;
+    padding:4% 0 4% 2%;
+    margin-left:13%;
+}
+
+.submitLogAdminButton:focus {
+    opacity:0.7;
+}
+
+table {
+    background:white;
+    width:100%;
+}
+
+td,th {
+    text-align: center;
+    padding:15px;
+}
+thead {
+    background:rgb(67, 150, 92);
+    color:white;
+}
+
+tr:nth-child(2n) {
+    background:gainsboro;
+}
+
+/*página principal administrador*/
+
+a {
+    text-decoration: none;
+    color:gray;
+}
+
+.adminLinks {
+    width: 30%;
+    height:100%;
+}
+
+.sectionTitle {
+    font-size:32px;
+    font-weight: bolder;
+}
+
+.sectionDiv {
+    max-height:320px;
+    height:100%;
+    background-color: white;
+    padding:7%;
+    padding:5% 25% 5% 25%;
+}
+
+.coursesImg {
+    width:135%;
+}
+
+.runnersImg {
+    width:100%;
+}
+
+.sponsorsImg {
+    width:100%;
+}
+
+/*general filters*/
+
+.searchButton {
+    width:10%;
+}
+
+/*general imgs*/
+
+.statusIcon {
+    max-height:50px;
+}
+
+.editIcon {
+    max-height:50px;
+}
+
+/*runners index page*/
+
+.createRunnerButton {
+    text-align: center;
+    background:rgb(67, 150, 92);
+    color:white;
+    border:none;
+    width:25%;
+    padding:2% 0 2% 0;
+    margin:0 0 2% 0;
+}
+
+.createRunnerButton:focus {
+    opacity:0.7;
+}
+
+.returnButton {
+    text-align: center;
+    color:white;
+    background:rgb(80, 177, 223);
+    border:none;
+    max-width:324px;
+    width:25%;
+    padding:2% 0 2% 0;
+    margin:2% 0 0 0;
+}
+
+.returnFormButton {
+    border-radius:15px;
+    text-align: center;
+    color:white;
+    background:rgb(80, 177, 223);
+    border:none;
+    max-width:324px;
+    padding:2% 1% 2% 1%;
+    margin:2% 50% 2% 0;
+}
+
+.returnRunnerButton:focus {
+    opacity:0.7;
+}
+
+.returnButton:focus {
+    opacity:0.7;
+}
+
+/*create courses page*/
+
+.formTitleDiv {
+    margin-left: 28%;
+}
+
+/* create sponsors page */
+
+.checkBoxSponsorInput {
+    text-align:center;
+}
+
+input[type="checkbox"] {
+    padding:5%;
+}
+
+.active:hover{
+    background-color: rgb(0, 0, 163)!important;
+    transition: 500ms;
+}
+
+input:hover{
+    outline: 1px solid blue;
+}
+
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+
+   /* Main Page */
+
+.bannerImg {
+    width:40%;
+    height:40%;
+    object-fit: contain;
+}
+
+.principalSponsorImg {
+    width:40%;
+}
