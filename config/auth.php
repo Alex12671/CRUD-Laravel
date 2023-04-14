@@ -15,7 +15,7 @@ return [
 
     'defaults' => [
         'guard' => 'web',
-        'passwords' => 'admins',
+        'passwords' => 'pets',
     ],
 
     /*
@@ -38,7 +38,7 @@ return [
     'guards' => [
         'web' => [
             'driver' => 'session',
-            'provider' => 'admins',
+            'provider' => 'pets',
         ],
     ],
 
@@ -60,14 +60,14 @@ return [
     */
 
     'providers' => [
-        'admins' => [
+        'pets' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
 
-         'admins' => [
+         'pets' => [
              'driver' => 'database',
-             'table' => 'admins',
+             'table' => 'pets',
          ],
     ],
 
@@ -87,8 +87,8 @@ return [
     */
 
     'passwords' => [
-        'admins' => [
-            'provider' => 'admins',
+        'pets' => [
+            'provider' => 'pets',
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,
